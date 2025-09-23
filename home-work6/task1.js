@@ -1,17 +1,17 @@
-function areaOfRectangleDecl(width, height){
+function calculateRectangleAreaDecl(width, height){
     return width * height;
 }
 
-console.log("Declaration:", areaOfRectangleDecl(4, 7))
+console.log("Declaration:", calculateRectangleAreaDecl(4, 7))
 
 
-const areaOfRectangleExpr  = function(width, height){
+const calculateRectangleAreaExpr  = function(width, height){
     return width * height;
 }
 
-console.log("Expression:", areaOfRectangleExpr(3, 5))
+console.log("Expression:", calculateRectangleAreaExpr(3, 5))
 
 
-const areaOfRectangleArrow  = (width, height) => width * height;
+const calculateRectangleAreaArrow  = (width, height) => width * height;
 
-console.log("Arrow:", areaOfRectangleArrow(15, 8))
+console.log("Arrow:", calculateRectangleAreaArrow(15, 8))
